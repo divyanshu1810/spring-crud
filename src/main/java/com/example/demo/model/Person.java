@@ -1,5 +1,5 @@
 package com.example.demo.model;
-
+import java.util.UUID;
 public class Person {
     private final UUID id;
     private final String name;
@@ -16,5 +16,4 @@ public class Person {
     public String getName() {
         return name;
     }
-
 }
